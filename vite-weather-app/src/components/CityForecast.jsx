@@ -1,6 +1,6 @@
 import React from "react";
 import { weatherData } from "./CityList";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router";
 import { useEffect, useRef, useState } from "react";
 
 export default function CityForecast () {
