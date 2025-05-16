@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router"
 import newYorkImg from './newyork.jpg'
 import londonImg from './london.jpg'
 import tokyoImg from './tokyo.jpeg'
