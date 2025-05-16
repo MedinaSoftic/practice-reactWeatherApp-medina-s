@@ -1,3 +1,29 @@
+body{
+  background-image: url(https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+}
 div{
   text-align: center;
+}
+
+p{
+  text-align: center;
+  text-shadow: 12%;
+  text-decoration-line:initial;
+}
+
+.homePage{
+  border: 5px solid black;
+  border-radius: 10%;
+  margin: 40px auto;
+  max-width: 350px;
+  background-image: url(https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.cityList{
+  border: 5px solid black;
+  border-radius: 10%;
+  margin: 40px auto;
+  max-width: 250px;
+  background-color: rgba(140, 153, 180, 0.614);
 }

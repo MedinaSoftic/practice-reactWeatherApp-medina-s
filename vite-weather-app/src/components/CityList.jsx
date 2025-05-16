@@ -28,11 +28,15 @@ export default function CityList () {
 
     return(
         <>
+        <div className="homePage">
         <h1>City Forecast! </h1>
+        <p>Select A City Below<br/>To View The Weather</p>
+        <div className="cityList">
             {weatherData.map(city =>
               <p key={city.id}><Link to={`/forecast/${city.cityName}`}>{city.cityName}</Link></p> 
             )}
-            
+        </div> 
+        </div>   
         </>
     )
 }
